@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.user {
+    border-radius: 50%;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.nav{
+    width: 100%;
+   
+    margin-top: 20px;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+.nav a{
+    text-decoration: none;
+    font-size: 28px;
+    font-family: verdana;
+    font-weight: bold;
+    background-color: grey;
+    color:black;
+    transition: 300ms;
+}
+
+a.active, .nav a:hover{
+    background-color: #101010;
+    color: white;
+    
+}
+
+.nav .fas {
+    float: right;
+}
+
+/*---------CV----------*/
+@media only screen and (max-width: 600px) {
+    #cv {
+      padding: 300px 0 !important;
+    }
+}
+
+#cv {
+    padding-top: 20px;
+}
+#cv.content {
+    margin-top: 20px;
+}
+
+/*----------Portfolie-------_*/
+
+.port {
+    width: 100%;
+    
+}
+
+/*----------Skills----------*/
+
+.progress {
+    margin: 20px 0;
+}
+
+
+/*---------------conatct----------*/
+
+#contact{
+    padding: 20px 0;
+}
+.info p{
+    color: #101010;
+    font-size: 25px;
+    font-weight: bold;
+}
