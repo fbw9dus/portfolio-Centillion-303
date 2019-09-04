@@ -9,10 +9,7 @@
   ```
 - Link für Email, der E-Mail Anwendung öffnet (5/5)
 - Link für Telefon, der Telefon-Anwendung öffnet (5/5)
-- Link zum Lebenslauf(PDF), der einen Download auslöst (0/5)
-```diff
-- der Pfad zur Datei muss im href-Attribut sein. Das download-Attribut braucht leinen Wert.
-```
+- Link zum Lebenslauf(PDF), der einen Download auslöst (5/5)
 - Links zu Social Media Profilen
   - Haben Icons der Dienste (10/10)
   - Sollen in einem neuen Tab öffnen (5/5)
@@ -32,4 +29,4 @@
 - Keine Viewport-Elemente im head (5/5)
 
 ### Punkte
-(**95**/100)
+(**100**/100)
